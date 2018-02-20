@@ -1,0 +1,9 @@
+{
+  "name": "korona",
+  "version": "1.0.0",
+  "description": "Take any JavaScript data and get back a reasonably unique hex or rgb color with an optional alpha channel",
+  "main": "index.js",
+  "repository": "git@github.com:thesephist/korona.git",
+  "author": "Linus Lee <linus@thesephist.com>",
+  "license": "MIT"
+}
