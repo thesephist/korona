@@ -49,10 +49,3 @@ const korona = (data, {
 }
 
 module.exports = korona;
-
-console.log(korona('hi'));
-console.log(korona('hi', {mode: 'hex'}));
-console.log(korona('hi', {mode: 'hex', alpha: true}));
-console.log(korona('hi', {mode: 'rgb'}));
-console.log(korona('hi', {mode: 'rgb', alpha: true}));
-
