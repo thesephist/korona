@@ -18,7 +18,7 @@ const stringify = data => {
 
 const normalizeString = (string, length = 6) => {
     const hash = crypto.createHash('sha1');
-    hash.update(string, 'utf9');
+    hash.update(string, 'utf8');
     return hash.digest('hex').slice(0, length);
 }
 
